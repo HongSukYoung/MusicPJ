@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void myListener(View target) {
         Intent intent = new Intent(getApplicationContext(), Youtube_search.class);
-        Toast.makeText(MainActivity.this, "Youtube", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "Youtube Search", Toast.LENGTH_SHORT).show();
         startActivity(intent);
     }
 
@@ -26,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
     public void myListener2(View target) {
         Intent intent = new Intent(getApplicationContext(), ChartActivity.class);
         Toast.makeText(MainActivity.this, "Music Chart", Toast.LENGTH_SHORT).show();
+        startActivity(intent);
+    }
+
+    public void myListener3(View target) {
+        Intent intent = new Intent(getApplicationContext(), MyMusic.class);
+        Toast.makeText(MainActivity.this, "Music Play", Toast.LENGTH_SHORT).show();
         startActivity(intent);
     }
 

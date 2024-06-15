@@ -33,7 +33,6 @@ public class ChartActivity extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.recyclerView_chart);
 
-
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
 
